@@ -1,0 +1,58 @@
+Lab 1: 
+Create a table named Employees with the following fields:
+EmpID (integer)
+Name (varchar)
+Department (varchar)
+Salary (integer)
+Insert the following three employee records:
+
+(101, 'Alice', 'HR', 50000)
+
+(102, 'Bob', 'Finance', 60000)
+
+(103, 'Charlie', 'IT', 70000)
+
+Alter the table to add a new column JoiningDate of type DATE.
+
+Update the salary of the employee with EmpID = 102 to 65000.
+
+Delete the employee whose name is 'Charlie'.
+
+Drop the entire Employees table.
+
+
+
+
+Lab 2: Create a table named Students with columns:
+
+StudentID (integer)
+
+Name (varchar(50))
+
+Department (varchar(30))
+
+Marks (integer)
+
+Insert the following records:
+
+StudentID	Name	Department	Marks
+1		Ravi	   CSE		85
+2		Priya	   ECE		78
+3		Arjun	   CSE		92
+4		Neha	   ME		67
+5		Anjali	   ECE		74
+
+Alter the table to add a column Email of type VARCHAR(10).
+
+Update the Marks of students from the CSE department by adding 5 marks to their existing scores.
+
+Delete the records of students whose Marks are less than 70.
+
+Use the WHERE clause to select all students from the ECE department.
+
+Use the IN operator to fetch details of students from either CSE or ME departments.
+
+Use the NOT IN operator to find students not in the CSE department.
+
+Finally, drop the Students table.
+
